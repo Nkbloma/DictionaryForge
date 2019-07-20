@@ -1,0 +1,17 @@
+January 26, 2018
+This project creates a CSV file that contains 3 columns: ID, Word, Definition.
+The console first starts and the user is allowed to add a word, delete a word by ID,
+Modify a word and/or its definition, list all words, and look for 1 word.
+For the sake of making it look like a terminal, I'm not going to list all the options.
+Instead I'll just include an option "h", that'll list all the words.
+
+At the end of the day, I made the layout of the whole project and got the AddWord
+method to work. All I need to do is finish the others now.
+
+January 31, 2018
+Well, got them all working now. Listing and finding words weren't that bad.
+Modifying and Deleting them however, required a little more thinking. Since
+you cannot read and write files at the same time in Python, at least I don't
+know as of now, I decided to write a temp file that would have the new changes
+and if the process succeeded, rename that file dict.csv and delete the temp
+file.
