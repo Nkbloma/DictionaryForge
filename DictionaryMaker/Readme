@@ -15,7 +15,3 @@ you cannot read and write files at the same time in Python, at least I don't
 know as of now, I decided to write a temp file that would have the new changes
 and if the process succeeded, rename that file dict.csv and delete the temp
 file.
-
-My next options are adding a few more features to refine the program:
-1. You can only add a word once, if it already exists than the program won't add it.
-2.
