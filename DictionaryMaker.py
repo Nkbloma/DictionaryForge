@@ -50,7 +50,6 @@ class DictionaryForge:
                     continue
 
         return print(SearchWord + " couldn't be found")
-        #Look second column in row if it equals SearchingWord
 
     def ListWords(self):
         with open("dict.csv", "r", newline='') as f:
@@ -82,7 +81,6 @@ class DictionaryForge:
             os.remove("dict.csv.temp")
         else:
             return  "Word was not found."
-    #Make temp file, write file, delete temp file
 
     def CountRows(self):
         row_count = 0

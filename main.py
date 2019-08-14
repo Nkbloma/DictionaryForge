@@ -1,8 +1,3 @@
-#1-Open file
-#2-Give options
-#3-Do options
-#4-If end option, close file. Else ->#3
-
 from DictionaryMaker import DictionaryForge
 import csv
 
@@ -29,9 +24,4 @@ while choice != 'e':
         elif (choice == 'h'):
             DF.Help()
 
-print("Closing dictionary n stuff.")
-
-#def ReadFile()
-#def ModifyWord()
-#def ListWords()
-#def FindWord
+print("Exiting Dictionary Forge.")
